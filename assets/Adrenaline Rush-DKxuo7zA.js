@@ -1,0 +1,1 @@
+const e="Adrenaline Rush",t=["Browser"],n="The Tech Wolf",s="https://thetechwolflr.itch.io/adrenaline-rush",o={title:e,platforms:t,maker:n,link:s};export{o as default,s as link,n as maker,t as platforms,e as title};

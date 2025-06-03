@@ -1,0 +1,1 @@
+const t="GIGAWORM",s="Mikeysaur",o=["Browser","Windows"],i="https://mikeysaur.itch.io/gigaworm",r={title:t,maker:s,platforms:o,link:i};export{r as default,i as link,s as maker,o as platforms,t as title};

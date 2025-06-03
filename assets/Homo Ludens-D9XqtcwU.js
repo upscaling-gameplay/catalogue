@@ -1,0 +1,1 @@
+const o="Homo Ludens",t="Smooth Dedede",e=["Browser","Windows"],s="https://smooth-dedede.itch.io/homoludens",d={title:o,maker:t,platforms:e,link:s};export{d as default,s as link,t as maker,e as platforms,o as title};
