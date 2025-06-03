@@ -66,13 +66,9 @@ export default {
     z-index: 1;
 }
 
-.grid-item:hover .banner-image {
-    filter: brightness(0.25) contrast(1.2);
-}
 
-.grid-item.active .banner-image {
-    filter: brightness(0.25) contrast(1.2);
-}
+
+
 
 .grid-item-overlay {
     position: absolute;
@@ -87,14 +83,9 @@ export default {
     pointer-events: none;
 }
 
-.grid-item:hover .grid-item-overlay {
-    opacity: 1;
-}
 
-.grid-item.active .grid-item-overlay {
-    opacity: 1;
-    pointer-events: auto;
-}
+
+
 
 .grid-item h3 {
     color: #fff;
@@ -102,7 +93,8 @@ export default {
     font-size: 1.5em;
     text-shadow: 0 2px 8px rgba(0, 0, 0, 0.7);
     pointer-events: none;
-    text-transform: uppercase; /* All caps */
+    text-transform: uppercase;
+    /* All caps */
 }
 
 .grid-item h4 {
@@ -114,13 +106,15 @@ export default {
     position: absolute;
     left: 0;
     right: 0;
-    bottom: 20px; /* 20px from bottom */
+    bottom: 20px;
+    /* 20px from bottom */
     text-align: center;
 }
 
 .platforms {
     display: flex;
-    flex-direction: column; /* Stack vertically */
+    flex-direction: column;
+    /* Stack vertically */
     gap: 6px;
     pointer-events: none;
     position: absolute;
@@ -146,11 +140,24 @@ export default {
     padding: 2px;
 }
 
-@media (max-width: 600px) {
-    .grid-item-overlay {
-        /* Remove or comment out the next line if you want only the center item active */
-        /* opacity: 1 !important; */
-        pointer-events: auto;
+@media (min-width: 601px) {
+    .grid-item:hover .grid-item-overlay {
+        opacity: 1;
     }
+
+    .grid-item:hover .banner-image {
+        filter: brightness(0.25) contrast(1.2);
+    }
+}
+
+@media (max-width: 600px) {
+    .grid-item.active .banner-image {
+        filter: brightness(0.25) contrast(1.2);
+    }
+
+    .grid-item.active .grid-item-overlay {
+    opacity: 1;
+    pointer-events: auto;
+}
 }
 </style>

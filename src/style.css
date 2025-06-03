@@ -201,6 +201,11 @@ body {
   /* remove horizontal padding here */
 }
 
+.grid-bottom-spacer {
+  height: calc(2 * var(--grid-item-height, 220px)); /* Adjust 220px to your grid item height */
+  width: 100%;
+}
+
 /* Responsive grid */
 @media (max-width: 1300px) {
   .grid-wrapper {

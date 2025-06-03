@@ -76,6 +76,8 @@
               :active="index === activeIndex"
             />
           </div>
+          <!-- Add extra scroll space after the grid -->
+          <div class="grid-bottom-spacer"></div>
           <div class="grid-spacer"></div>
         </div>
       </main>
