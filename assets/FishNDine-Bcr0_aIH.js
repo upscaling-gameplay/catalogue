@@ -1,0 +1,1 @@
+const t="Fish n Dine",e=["Browser"],s="TimpahDev",n="https://thetechwolflr.itch.io/adrenaline-rush",i={title:t,platforms:e,maker:s,link:n};export{i as default,n as link,s as maker,e as platforms,t as title};

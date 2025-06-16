@@ -1,0 +1,1 @@
+const e="Coin Flipper",i=["Browser"],o="Siebe Beerkens",t="https://siebebeerkensgmailcom.itch.io/coinflipper",s={title:e,platforms:i,maker:o,link:t};export{s as default,t as link,o as maker,i as platforms,e as title};

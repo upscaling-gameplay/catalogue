@@ -1,1 +1,0 @@
-const o="Slop Turn-based Prototype",t="Rico Rebranded",e=["Browser"],r="https://ricorebranded.itch.io/slop-turn-based-prototype",s={title:o,maker:t,platforms:e,link:r};export{s as default,r as link,t as maker,e as platforms,o as title};

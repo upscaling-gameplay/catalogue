@@ -1,0 +1,1 @@
+const t="No One Out There",o=["Windows"],e="Maas van Eck",n="https://taomas.itch.io/no-one-out-there-demo",s={title:t,platforms:o,maker:e,link:n};export{s as default,n as link,e as maker,o as platforms,t as title};

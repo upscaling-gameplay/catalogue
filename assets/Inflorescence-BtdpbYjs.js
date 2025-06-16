@@ -1,0 +1,1 @@
+const n="Inflorescence",e=["Browser","Windows"],o="BeanzFizations",s="https://beanzfizations.itch.io/inflorescence",t={title:n,platforms:e,maker:o,link:s};export{t as default,s as link,o as maker,e as platforms,n as title};

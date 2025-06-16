@@ -1,0 +1,1 @@
+const e="Adrenaline Rush",t=["Browser"],n="Lorenzo 'TheTechWolf' Ritman",o="https://thetechwolflr.itch.io/adrenaline-rush",s={title:e,platforms:t,maker:n,link:o};export{s as default,o as link,n as maker,t as platforms,e as title};

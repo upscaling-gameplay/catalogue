@@ -1,0 +1,1 @@
+const t="Mangled",e=["Windows"],n="Fedor van de Meent",o="https://golby-face.itch.io/mangled",a={title:t,platforms:e,maker:n,link:o};export{a as default,o as link,n as maker,e as platforms,t as title};

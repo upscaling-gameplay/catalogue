@@ -1,0 +1,1 @@
+const t="Alfabattle",a=["Browser"],o="RohanW star",s="https://rohanw-star.itch.io/alfabattle",l={title:t,platforms:a,maker:o,link:s};export{l as default,s as link,o as maker,a as platforms,t as title};

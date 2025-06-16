@@ -1,0 +1,1 @@
+const t="Insaniac Lite",n=["Browser","Windows"],i="RicoRebranded",s="https://ricorebranded.itch.io/insaniac-lite",a={title:t,platforms:n,maker:i,link:s};export{a as default,s as link,i as maker,n as platforms,t as title};

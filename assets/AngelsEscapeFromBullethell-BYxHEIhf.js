@@ -1,0 +1,1 @@
+const e="Angel’s Escape from Bullethell",l=["Browser","Windows"],s="Kyara Hooker",t="https://kbunny679.itch.io/angel-escape",o={title:e,platforms:l,maker:s,link:t};export{o as default,t as link,s as maker,l as platforms,e as title};

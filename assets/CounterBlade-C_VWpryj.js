@@ -1,0 +1,1 @@
+const t="CounterBlade",a=["Windows"],o="Adam Argam",e="https://adamisback.itch.io/counterblade",n={title:t,platforms:a,maker:o,link:e};export{n as default,e as link,o as maker,a as platforms,t as title};

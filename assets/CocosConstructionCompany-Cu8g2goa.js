@@ -1,0 +1,1 @@
+const o="Coco's Construction Company",t=["Browser"],c="Ribiveer",n="https://ribiveer.itch.io/cocos-construction-company",s={title:o,platforms:t,maker:c,link:n};export{s as default,n as link,c as maker,t as platforms,o as title};
